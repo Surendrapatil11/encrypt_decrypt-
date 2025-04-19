@@ -11,7 +11,6 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return encrypt(text, -shift)
 
-from encrypt_decrypt import encrypt, decrypt
 
 def main():
     print("Text Encryption System")
